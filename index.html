@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Интерактивная VR-презентация ЛМС-192 «Освей» и расчёт комплектации LikeVR.">
+<title>ЛМС-192 «Освей» · LikeVR</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="config.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="mast"><a href="index.html" aria-label="LikeVR — презентация Освея"><img src="assets/likevr.png" alt="LikeVR"></a><span>ЛМС-192 «Освей»</span><a class="quiet contact-top" href="#contact">Связаться с нами ↗</a></header>
+<main id="main" class="presentation">
+<section class="slide hero" data-slide="0" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow">ЛМС-192 / VR-ПРЕЗЕНТАЦИЯ</p><h1 id="hero-title">Освей<span>.</span></h1><p class="intro">Интерактивная VR-презентация самолёта ЛМС-192</p><p>Осмотрите самолёт снаружи и изнутри. Выберите компоновку салона и оборудование под формат показа.</p><button class="primary" data-go="1">Посмотреть сценарий <span>→</span></button></div>
+<figure class="hero-art"><div class="hero-photo"><img src="assets/osvey-flight.webp" width="1580" height="882" alt="ЛМС-192 «Освей» в полёте, изображение из материалов проекта" fetchpriority="high"></div><figcaption class="art-caption"><span>ЛМС-192 «ОСВЕЙ»</span><span>МАТЕРИАЛЫ ПРОЕКТА</span></figcaption></figure>
+</section>
+
+<section class="slide" data-slide="1" aria-labelledby="scope-title" hidden>
+<p class="eyebrow">01 / СОСТАВ РЕШЕНИЯ</p><h2 id="scope-title">Что увидит посетитель</h2>
+<div class="scenario">
+<article class="scenario-card"><img src="assets/osvey-exterior.webp" width="1160" height="797" alt="ЛМС-192 «Освей» в ангаре, вид на экстерьер" loading="lazy"><div class="scenario-copy"><p class="eyebrow">01 / ЭКСТЕРЬЕР</p><h3>Осмотр снаружи</h3><p>Посетитель рассматривает самолёт с разных ракурсов.</p></div></article>
+<article class="scenario-card"><img id="cabin-image" src="assets/osvey-passenger.webp" width="1020" height="619" alt="Пассажирская компоновка салона «Освея»" loading="lazy"><div class="scenario-copy"><p class="eyebrow">02 / ИНТЕРЬЕР</p><h3 id="cabin-label">Пассажирская компоновка</h3><div class="cabin-picker" role="group" aria-label="Посмотреть компоновку салона"><button type="button" data-cabin="passenger" aria-pressed="true">Пассажирская</button><button type="button" data-cabin="cargo" aria-pressed="false">Грузовая</button><button type="button" data-cabin="medical" aria-pressed="false">Медицинская</button></div></div></article>
+<article class="scenario-card"><div class="scenario-visual"><img src="assets/osvey-cockpit-concept.webp" width="1279" height="720" alt="Штурвал и приборная панель с места пилота, концепт VR-сценария" loading="lazy"><span>Концепт осмотра</span></div><div class="scenario-copy"><p class="eyebrow">03 / ВЗАИМОДЕЙСТВИЕ</p><h3>Осмотр деталей</h3><p>Посетитель перемещается и рассматривает детали. Точки интереса и анимации согласуем отдельно.</p></div></article>
+<article class="scenario-card"><div class="scenario-visual"><img class="stand-image" src="assets/osvey-stand-concept.webp" width="1250" height="703" alt="Концепт выставочного стенда с VR-гарнитурой и экраном" loading="lazy"><span>Концепт показа</span></div><div class="scenario-copy"><p class="eyebrow">04 / ВЫСТАВКА</p><h3>Показ на стенде</h3><p>Демонстрация в VR. Вывод на внешний экран согласуем для совместимого комплекта.</p></div></article>
+</div>
+</section>
+<section class="slide" data-slide="2" aria-labelledby="options-title" hidden>
+<p class="eyebrow">02 / РЕКОМЕНДОВАННЫЕ ВАРИАНТЫ</p><h2 id="options-title">Две комплектации</h2>
+<p class="lead">Два варианта, которые рекомендуем для показа. Можно собрать свою конфигурацию и сразу увидеть, как меняется стоимость.</p><div id="comparison"></div><div class="option-actions"><button class="primary" data-go="3">Собрать свою конфигурацию →</button></div>
+</section>
+<section class="slide" data-slide="3" aria-labelledby="calc-title" hidden>
+<p class="eyebrow">03 / КАЛЬКУЛЯТОР</p><h2 id="calc-title">Рассчитайте VR-презентацию</h2><p class="lead">Выберите состав проекта. Итог пересчитается сразу.</p><div data-calculator></div>
+</section>
+<section class="slide" data-slide="4" aria-labelledby="cases-title" hidden>
+<p class="eyebrow">04 / ПОРТФОЛИО</p><h2 id="cases-title">Примеры работ</h2>
+<div class="cases">
+<article><span>01</span><div><h3>АО «ТТ ЭНЕРГО»</h3><p>VR-презентация газовой турбины.</p></div><div><a href="https://dzen.ru/video/watch/67e2c2b36f89c7091935f91d">Основной ролик ↗</a><a href="https://dzen.ru/video/watch/6806091c0206767c4dee91d6">Дополнительный ↗</a></div></article>
+<article><span>02</span><div><h3>JTI</h3><p>VR-тренажёр с проработанной виртуальной средой.</p></div><div><a href="https://dzen.ru/video/watch/67dd66a73114b943054f061e">Смотреть ↗</a></div></article>
+<article><span>03</span><div><h3>IBM Oil</h3><p>Виртуальная среда нефтеперерабатывающего предприятия.</p></div><div><a href="https://dzen.ru/video/watch/67116b30e71c5047ac19d0bf">Ролик 1 ↗</a><a href="https://dzen.ru/video/watch/671286fc551d0514027d607f">Ролик 2 ↗</a></div></article>
+<article><span>04</span><div><h3>«Электронный город»</h3><p>Интерактивный выставочный VR-стенд.</p></div><div><a href="https://dzen.ru/video/watch/6712846b8f3b99294fcaa145">Смотреть ↗</a></div></article>
+<article><span>05</span><div><h3>«Роснефть»</h3><p>Промышленный VR-тренажёр.</p></div><div><a href="https://dzen.ru/video/watch/6756b1544894df28f03b3015">Смотреть ↗</a></div></article>
+</div><p class="note"><a href="https://dzen.ru/likevr">Все видео LikeVR ↗</a></p>
+</section>
+<section class="slide" data-slide="5" aria-labelledby="contact-title" hidden>
+<p class="eyebrow">05 / СЛЕДУЮЩИЙ ШАГ</p><h2 id="contact-title">Обсудим вашу конфигурацию</h2><p class="intro">Проверим исходные материалы, согласуем объём работ, итоговую стоимость и график.</p><a class="primary contact" href="https://t.me/ART_TEAM573">Договориться о созвоне ↗</a><address class="contact-list">
+<a class="contact-item" data-channel="telegram" href="https://t.me/ART_TEAM573"><strong>Telegram</strong><span>@ART_TEAM573 ↗</span></a>
+<div class="contact-item contact-reference"><strong>Почта</strong><span data-contact="email">s.artem@likevr.ru</span></div>
+<div class="contact-item contact-reference"><strong>Телефон LikeVR</strong><span data-contact="phoneLabel">+7 (495) 066-71-69</span></div>
+</address>
+</section>
+</main>
+<nav class="deck-nav" aria-label="Навигация по презентации"><button id="prev" class="nav-arrow" aria-label="Предыдущий раздел">← <span>Назад</span></button><div id="steps" class="steps"></div><button id="next" class="nav-arrow" aria-label="Следующий раздел"><span>Дальше</span> →</button></nav>
+</body></html>
